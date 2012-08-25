@@ -1,0 +1,221 @@
+// ===============================================================
+// ±IMPORTS
+// ===============================================================
+
+@import "compass/css3";
+@import "normalize";
+
+
+
+// ===============================================================
+// ±VARIABLES
+// ===============================================================
+
+// hsl Hue value
+$project-color: 200;
+
+// ===============================================================
+// ±TYPORGRAPHY
+// ===============================================================
+
+body{
+  color: hsl(0,3,45);
+  font-family: 'Droid Serif', serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+h1,h2,h3,h4{
+  color: hsl(0,1,35);
+  font-family: 'Droid Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  font-size: 46px;
+  line-height: 52px;
+}
+
+h2{
+  font-size: 32px;
+  font-family: 'Droid Serif', serif;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 40px;
+}
+
+h3{
+  font-size: 28px;
+  line-height: 34px;
+}
+
+h4{
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0;
+}
+
+h5{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h6{
+  font-size: 16px;
+  line-height: 22px;
+}
+
+h1,h2,h3,p,ol,ul{
+  margin: 0 0 22px 0;
+}
+
+ul,ol{
+  list-style: none;
+  padding: 0;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  border-top: 1px dashed hsl(0,0,70);
+  margin: 42px 0;
+}
+
+a{
+  color: hsl($project-color,50,50);
+
+  &:hover{
+    color: hsl($project-color,100,50)
+  }
+
+  &:visted{
+    color: hsl($project-color,50,50);
+  }
+}
+
+// ===============================================================
+// ±GENERAL STYLES
+// ===============================================================
+
+*{
+  @include box-sizing(border-box);
+}
+
+.header{
+  background-color: hsl($project-color,30,40);
+  padding: 20px 0;
+
+}
+
+.title{
+  color: white;
+  width: 780px;
+  margin: 0 auto;
+}
+
+.wrap{
+  width: 780px;
+  margin: 40px auto 0;
+}
+
+.challenge{
+  margin-bottom: 44px;
+}
+
+.intro{
+
+}
+
+.visualization-section{
+
+}
+
+.visualization-title{
+
+}
+
+.visualization-container{
+  border: 1px solid hsl(0,0,80);
+  width: 100%;
+  margin-bottom: 22px;
+
+}
+
+#visualization{
+  width: 760px;
+  height: 400px;
+  background-color: hsl(0,0,92);
+  margin: 10px;
+}
+
+.visualization-caption{
+  display: block;
+  border-top: 1px solid hsl(0,0,80);
+  padding: 5px 0;
+  text-align: center;
+  font-style: italic;
+}
+
+.visualization-description{
+
+}
+
+.ddc-blurb{
+
+}
+
+.ddc-link,
+.ddc-link h3{
+  color: hsl($project-color,50,50);
+
+  &:hover{
+    color: hsl($project-color,100,50);
+  }
+}
+
+.source-link{
+  display: block;
+  background-color: hsl($project-color,50,50);
+  color: white;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  width: 400px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0 auto;
+
+  @include border-radius(5px); 
+
+  &:hover{
+    background-color: hsl($project-color,100,50);
+    color: white;
+  }
+}
+
+.authors{
+}
+
+ul.authors{
+  margin-bottom: 100px;
+}
+
+.author{
+  width: 255px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 32px;
+
+  // &:nth-child(3n-1){
+  //   margin: 0 18px;
+  // }
+
+  a{
+    display: block;
+  }
+}
+
+// ===============================================================
+// ±CHART
+// ===============================================================
