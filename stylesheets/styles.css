@@ -549,7 +549,7 @@ a:visted {
 /* line 183, ../sass/styles.scss */
 #graph [class*="crisis"] .funds {
   width: 50px;
-  background-image: url("/images/stripe.png");
+  background-image: url("../images/stripe.png");
   left: 55px;
 }
 /* line 189, ../sass/styles.scss */
@@ -637,7 +637,7 @@ a:visted {
 /* line 281, ../sass/styles.scss */
 .key div:nth-child(2n) {
   float: right;
-  background-image: url("/images/stripe.png");
+  background-image: url("../images/stripe.png");
 }
 
 /* line 287, ../sass/styles.scss */
