@@ -14,6 +14,28 @@
 // hsl Hue value
 $project-color: 200;
 
+// ±SUPER-VIS!
+// ===============================================================
+
+$crisis-1-media: 40%;
+$crisis-1-funds: 60%;
+
+$crisis-2-media: 30%;
+$crisis-2-funds: 80%;
+
+$crisis-3-media: 70%;
+$crisis-3-funds: 50%;
+
+$crisis-4-media: 40%;
+$crisis-4-funds: 90%;
+
+$crisis-5-media: 100%;
+$crisis-5-funds: 50%;
+
+$crisis-6-media: 40%;
+$crisis-6-funds: 90%;
+
+
 // ===============================================================
 // ±TYPORGRAPHY
 // ===============================================================
@@ -193,60 +215,72 @@ $crisis-color-6: 300;
     &:nth-child(1){
       .media{
         background-color: hsl($crisis-color-1,100,70);
+        height: $crisis-1-media;
       }
 
       .funds{
         background-color: hsl($crisis-color-1,100,50);
+        height: $crisis-1-funds;
       }
     }
 
     &:nth-child(2){
       .media{
         background-color: hsl($crisis-color-2,100,70);
+        height: $crisis-2-media;
       }
 
       .funds{
         background-color: hsl($crisis-color-2,100,50);
+        height: $crisis-2-funds;
       }
     }
 
     &:nth-child(3){
       .media{
         background-color: hsl($crisis-color-3,100,70);
+        height: $crisis-3-media;
       }
 
       .funds{
         background-color: hsl($crisis-color-3,100,50);
+        height: $crisis-3-funds;
       }
     }
 
     &:nth-child(4){
       .media{
         background-color: hsl($crisis-color-4,100,70);
+        height: $crisis-4-media;
       }
 
       .funds{
         background-color: hsl($crisis-color-4,100,50);
+        height: $crisis-5-funds;
       }
     }
 
     &:nth-child(5){
       .media{
         background-color: hsl($crisis-color-5,100,70);
+        height: $crisis-5-media;
       }
 
       .funds{
         background-color: hsl($crisis-color-5,100,50);
+        height: $crisis-5-funds;
       }
     }
 
     &:nth-child(6){
       .media{
         background-color: hsl($crisis-color-6,100,70);
+        height: $crisis-6-media;
       }
 
       .funds{
         background-color: hsl($crisis-color-6,100,50);
+        height: $crisis-6-funds;
       }
     }
   }

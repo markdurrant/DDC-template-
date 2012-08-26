@@ -382,7 +382,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 21, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 body {
   color: #766f6f;
   font-family: 'Droid Serif', serif;
@@ -390,7 +390,7 @@ body {
   line-height: 22px;
 }
 
-/* line 28, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 h1, h2, h3, h4 {
   color: #5a5858;
   font-family: 'Droid Sans', sans-serif;
@@ -398,13 +398,13 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
 h1 {
   font-size: 46px;
   line-height: 52px;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 h2 {
   font-size: 32px;
   font-family: 'Droid Serif', serif;
@@ -413,43 +413,43 @@ h2 {
   line-height: 40px;
 }
 
-/* line 48, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 h3 {
   font-size: 28px;
   line-height: 34px;
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 h4 {
   font-size: 22px;
   line-height: 28px;
   margin: 0;
 }
 
-/* line 59, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 h5 {
   font-size: 18px;
   line-height: 24px;
 }
 
-/* line 64, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 h6 {
   font-size: 16px;
   line-height: 22px;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 h1, h2, h3, p, ol, ul {
   margin: 0 0 22px 0;
 }
 
-/* line 73, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 ul, ol {
   list-style: none;
   padding: 0;
 }
 
-/* line 78, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 hr {
   border: none;
   height: 1px;
@@ -457,56 +457,56 @@ hr {
   margin: 42px 0;
 }
 
-/* line 85, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 a {
   color: #4095bf;
 }
-/* line 88, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 a:hover {
   color: #00aaff;
 }
-/* line 92, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 a:visted {
   color: #4095bf;
 }
 
-/* line 101, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 105, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .header {
   background-color: #477085;
   padding: 20px 0;
 }
 
-/* line 111, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
 .title {
   color: white;
   width: 780px;
   margin: 0 auto;
 }
 
-/* line 117, ../sass/styles.scss */
+/* line 139, ../sass/styles.scss */
 .wrap {
   width: 780px;
   margin: 40px auto 0;
 }
 
-/* line 122, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 .challenge {
   margin-bottom: 44px;
 }
 
-/* line 144, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .visualization-title {
   margin-bottom: 0;
 }
 
-/* line 149, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 .visualization-container {
   border: 1px solid #cccccc;
   height: 520px;
@@ -514,13 +514,13 @@ a:visted {
   margin-bottom: 22px;
 }
 
-/* line 157, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 #graph {
   width: 760px;
   height: 400px;
   margin: 10px;
 }
-/* line 162, ../sass/styles.scss */
+/* line 184, ../sass/styles.scss */
 #graph [class*="crisis"] {
   width: 110px;
   height: 100%;
@@ -528,7 +528,7 @@ a:visted {
   margin-right: 20px;
   position: relative;
 }
-/* line 170, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 #graph [class*="crisis"] .media, #graph [class*="crisis"] .funds {
   position: absolute;
   height: 100%;
@@ -540,89 +540,101 @@ a:visted {
   border-top-right-radius: 5px;
   bottom: 0;
 }
-/* line 177, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 #graph [class*="crisis"] .media {
   width: 50px;
   margin-right: 5px;
   left: 0;
 }
-/* line 183, ../sass/styles.scss */
+/* line 205, ../sass/styles.scss */
 #graph [class*="crisis"] .funds {
   width: 50px;
   background-image: url("../images/stripe.png");
   left: 55px;
 }
-/* line 189, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 #graph [class*="crisis"]:nth-child(6) {
   margin-right: 0;
 }
-/* line 194, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 #graph [class*="crisis"]:nth-child(1) .media {
   background-color: #ff6666;
+  height: 40%;
 }
-/* line 198, ../sass/styles.scss */
+/* line 221, ../sass/styles.scss */
 #graph [class*="crisis"]:nth-child(1) .funds {
   background-color: red;
-}
-/* line 204, ../sass/styles.scss */
-#graph [class*="crisis"]:nth-child(2) .media {
-  background-color: #ffff66;
-}
-/* line 208, ../sass/styles.scss */
-#graph [class*="crisis"]:nth-child(2) .funds {
-  background-color: yellow;
-}
-/* line 214, ../sass/styles.scss */
-#graph [class*="crisis"]:nth-child(3) .media {
-  background-color: #66ff66;
-}
-/* line 218, ../sass/styles.scss */
-#graph [class*="crisis"]:nth-child(3) .funds {
-  background-color: lime;
-}
-/* line 224, ../sass/styles.scss */
-#graph [class*="crisis"]:nth-child(4) .media {
-  background-color: #66ffff;
+  height: 60%;
 }
 /* line 228, ../sass/styles.scss */
+#graph [class*="crisis"]:nth-child(2) .media {
+  background-color: #ffff66;
+  height: 30%;
+}
+/* line 233, ../sass/styles.scss */
+#graph [class*="crisis"]:nth-child(2) .funds {
+  background-color: yellow;
+  height: 80%;
+}
+/* line 240, ../sass/styles.scss */
+#graph [class*="crisis"]:nth-child(3) .media {
+  background-color: #66ff66;
+  height: 70%;
+}
+/* line 245, ../sass/styles.scss */
+#graph [class*="crisis"]:nth-child(3) .funds {
+  background-color: lime;
+  height: 50%;
+}
+/* line 252, ../sass/styles.scss */
+#graph [class*="crisis"]:nth-child(4) .media {
+  background-color: #66ffff;
+  height: 40%;
+}
+/* line 257, ../sass/styles.scss */
 #graph [class*="crisis"]:nth-child(4) .funds {
   background-color: cyan;
+  height: 50%;
 }
-/* line 234, ../sass/styles.scss */
+/* line 264, ../sass/styles.scss */
 #graph [class*="crisis"]:nth-child(5) .media {
   background-color: #6666ff;
+  height: 100%;
 }
-/* line 238, ../sass/styles.scss */
+/* line 269, ../sass/styles.scss */
 #graph [class*="crisis"]:nth-child(5) .funds {
   background-color: blue;
+  height: 50%;
 }
-/* line 244, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
 #graph [class*="crisis"]:nth-child(6) .media {
   background-color: #ff66ff;
+  height: 40%;
 }
-/* line 248, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 #graph [class*="crisis"]:nth-child(6) .funds {
   background-color: magenta;
+  height: 90%;
 }
 
-/* line 255, ../sass/styles.scss */
+/* line 289, ../sass/styles.scss */
 .graph-titles {
   margin-left: 10px;
 }
 
-/* line 259, ../sass/styles.scss */
+/* line 293, ../sass/styles.scss */
 .graph-title {
   width: 110px;
   float: left;
   margin-right: 20px;
   text-align: center;
 }
-/* line 265, ../sass/styles.scss */
+/* line 299, ../sass/styles.scss */
 .graph-title:nth-child(6) {
   margin-right: 0;
 }
 
-/* line 270, ../sass/styles.scss */
+/* line 304, ../sass/styles.scss */
 .key div {
   display: block;
   width: 365px;
@@ -634,13 +646,13 @@ a:visted {
   float: left;
   padding: 5px 0;
 }
-/* line 281, ../sass/styles.scss */
+/* line 315, ../sass/styles.scss */
 .key div:nth-child(2n) {
   float: right;
   background-image: url("../images/stripe.png");
 }
 
-/* line 287, ../sass/styles.scss */
+/* line 321, ../sass/styles.scss */
 .visualization-caption {
   display: block;
   border-top: 1px solid #cccccc;
@@ -649,13 +661,13 @@ a:visted {
   font-style: italic;
 }
 
-/* line 299, ../sass/styles.scss */
+/* line 333, ../sass/styles.scss */
 .crisis-container {
   margin-top: 22px;
   float: left;
 }
 
-/* line 304, ../sass/styles.scss */
+/* line 338, ../sass/styles.scss */
 .crisis-container li {
   width: 380px;
   float: left;
@@ -663,65 +675,65 @@ a:visted {
   margin-bottom: 15px;
   padding: 5px;
 }
-/* line 311, ../sass/styles.scss */
+/* line 345, ../sass/styles.scss */
 .crisis-container li span {
   display: block;
   margin: 0;
   font-family: 'Droid Sans', sans-serif;
   font-weight: normal;
 }
-/* line 318, ../sass/styles.scss */
+/* line 352, ../sass/styles.scss */
 .crisis-container li h4 {
   text-align: left;
 }
-/* line 322, ../sass/styles.scss */
+/* line 356, ../sass/styles.scss */
 .crisis-container li:nth-child(2n) {
   margin-right: 0;
 }
-/* line 326, ../sass/styles.scss */
+/* line 360, ../sass/styles.scss */
 .crisis-container li:nth-child(1) {
   background-color: #ffcccc;
 }
-/* line 330, ../sass/styles.scss */
+/* line 364, ../sass/styles.scss */
 .crisis-container li:nth-child(2) {
   background-color: #ffffcc;
 }
-/* line 334, ../sass/styles.scss */
+/* line 368, ../sass/styles.scss */
 .crisis-container li:nth-child(3) {
   background-color: #ccffcc;
 }
-/* line 338, ../sass/styles.scss */
+/* line 372, ../sass/styles.scss */
 .crisis-container li:nth-child(4) {
   background-color: #ccffff;
 }
-/* line 342, ../sass/styles.scss */
+/* line 376, ../sass/styles.scss */
 .crisis-container li:nth-child(5) {
   background-color: #ccccff;
 }
-/* line 346, ../sass/styles.scss */
+/* line 380, ../sass/styles.scss */
 .crisis-container li:nth-child(6) {
   background-color: #ffccff;
 }
 
-/* line 351, ../sass/styles.scss */
+/* line 385, ../sass/styles.scss */
 .ddc-blurb {
   margin-top: 44px;
   padding-top: 44px;
   border-top: 1px dashed #b3b3b3;
 }
 
-/* line 358, ../sass/styles.scss */
+/* line 392, ../sass/styles.scss */
 .ddc-link,
 .ddc-link h3 {
   color: #4095bf;
 }
-/* line 361, ../sass/styles.scss */
+/* line 395, ../sass/styles.scss */
 .ddc-link:hover,
 .ddc-link h3:hover {
   color: #00aaff;
 }
 
-/* line 366, ../sass/styles.scss */
+/* line 400, ../sass/styles.scss */
 .source-link {
   display: block;
   background-color: #4095bf;
@@ -739,25 +751,25 @@ a:visted {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 380, ../sass/styles.scss */
+/* line 414, ../sass/styles.scss */
 .source-link:hover {
   background-color: #00aaff;
   color: white;
 }
 
-/* line 389, ../sass/styles.scss */
+/* line 423, ../sass/styles.scss */
 ul.authors {
   margin-bottom: 100px;
 }
 
-/* line 393, ../sass/styles.scss */
+/* line 427, ../sass/styles.scss */
 .author {
   width: 255px;
   display: inline-block;
   text-align: center;
   margin-bottom: 32px;
 }
-/* line 403, ../sass/styles.scss */
+/* line 437, ../sass/styles.scss */
 .author a {
   display: block;
 }
