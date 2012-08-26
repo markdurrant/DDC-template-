@@ -164,13 +164,11 @@ $crisis-color-6: 300;
 }
 
 .visualization-title{
-  margin-bottom:0;
-
 }
 
 .visualization-container{
   border: 1px solid hsl(0,0,80);
-  height: 520px;
+  height: 540px;
   width: 100%;
   margin-bottom: 22px;
 
@@ -429,6 +427,7 @@ ul.authors{
   display: inline-block;
   text-align: center;
   margin-bottom: 32px;
+  vertical-align: top;
 
   // &:nth-child(3n-1){
   //   margin: 0 18px;
